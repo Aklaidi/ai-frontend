@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+  <!-- Neural network nodes and connections -->
+  <g stroke="#00FF99" stroke-width="2" fill="#00FF99">
+    <!-- Central node -->
+    <circle cx="150" cy="150" r="5" />
+    <!-- Outer nodes arranged in a circle -->
+    <circle cx="150" cy="80" r="4" />
+    <circle cx="210.62" cy="115" r="4" />
+    <circle cx="210.62" cy="185" r="4" />
+    <circle cx="150" cy="220" r="4" />
+    <circle cx="89.38" cy="185" r="4" />
+    <circle cx="89.38" cy="115" r="4" />
+    <!-- Lines connecting the central node to each outer node -->
+    <line x1="150" y1="150" x2="150" y2="80" />
+    <line x1="150" y1="150" x2="210.62" y2="115" />
+    <line x1="150" y1="150" x2="210.62" y2="185" />
+    <line x1="150" y1="150" x2="150" y2="220" />
+    <line x1="150" y1="150" x2="89.38" y2="185" />
+    <line x1="150" y1="150" x2="89.38" y2="115" />
+    <!-- Lines connecting the outer nodes (forming a hexagon) -->
+    <line x1="150" y1="80" x2="210.62" y2="115" />
+    <line x1="210.62" y1="115" x2="210.62" y2="185" />
+    <line x1="210.62" y1="185" x2="150" y2="220" />
+    <line x1="150" y1="220" x2="89.38" y2="185" />
+    <line x1="89.38" y1="185" x2="89.38" y2="115" />
+    <line x1="89.38" y1="115" x2="150" y2="80" />
+  </g>
+  <!-- "AI" text label -->
+  <text x="150" y="290" fill="#FFFFFF" font-size="20" font-family="Arial, sans-serif" text-anchor="middle">
+    AI
+  </text>
+</svg>
